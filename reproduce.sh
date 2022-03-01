@@ -5,7 +5,7 @@ set -x
 
 git checkout master
 git checkout -b feature_1
-git commit --allow-empty --mesage "first commit"
+git commit --allow-empty --message "first commit"
 git push origin feature_1
 hub pull-request --base="master"
 git checkout -b feature_2
